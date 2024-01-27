@@ -1,7 +1,7 @@
 ---
 - name: Template a file, using symbolic modes (equivalent to 0644)
   template:
-    src: /home/ubuntu/test.txt.j2
+    src: test.txt.j2
     dest: /opt/test1.txt
     owner: ubuntu
     group: ubuntu
