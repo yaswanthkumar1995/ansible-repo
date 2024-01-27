@@ -14,4 +14,4 @@
     content: "lets begin it first"
     dest: "/var/www/html/index.html"
   notify:
-    - manage servicess
+    - manage services
