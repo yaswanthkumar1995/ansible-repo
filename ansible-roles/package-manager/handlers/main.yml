@@ -1,6 +1,6 @@
 --- 
-  - name: manage services
-    service:
-      name: nginx
-      state: restarted
+- name: manage services
+  service:
+    name: nginx
+    state: restarted
 
