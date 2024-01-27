@@ -1,0 +1,4 @@
+ ---
+- hosts: webservers
+  roles:
+    - role: '../ansible-roles/package-manager'
