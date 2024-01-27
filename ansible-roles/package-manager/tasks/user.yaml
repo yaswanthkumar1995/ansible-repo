@@ -1,0 +1,12 @@
+---
+    #  - name: Add the user yaswanth
+    #user:
+    # name: yaswanth
+    # shell: /bin/bash
+    # groups: root
+    # append: yes
+
+  - name: add the user 'johnd'
+    user:
+      name: "{{ myname }}"
+      state: present 
